@@ -1,0 +1,212 @@
+{
+  "info": {
+    "_postman_id": "6c7fcb31-db7b-40e6-9cfd-b52fe887546c",
+    "name": "TMDB Testing API Project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56724135",
+    "_collection_link": "https://go.postman.co/collection/56724135-6c7fcb31-db7b-40e6-9cfd-b52fe887546c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Testing Request",
+      "request": {
+        "auth": {
+          "type": "inherit"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/movie/550",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "movie",
+            "550"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search Movies by Keyword",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Search TV Shows by Name",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Movies Details by Movie ID",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{auth_secret_0764}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/movie/550",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "movie",
+            "550"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Movie Credits",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Popular Movies",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get TV Show Details by ID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Movie Genres List",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Discover Movies By Genre",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Now Playing Movies",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Person Details (Actor/Director)",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{json_web_token_0764}}",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/person/{person_id}",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "person",
+            "{person_id}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add a Movie to Watchlist",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "auth_secret_0764",
+      "secret": true
+    },
+    {
+      "key": "json_web_token_0764",
+      "secret": true
+    }
+  ]
+}
