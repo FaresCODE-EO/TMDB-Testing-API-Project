@@ -9,6 +9,7 @@ for movies, TV shows, and people.
 - **Base URL:** `https://api.themoviedb.org/3` (set via a `base_url` variable)
 - **Auth:** Bearer token (TMDB API Read Access Token)
 - **Environment:** `TMDB Environment` (holds `base_url`, `person_id`, and your token)
+- **Postman Documentation** `https://documenter.getpostman.com/view/56724135/2sBY4VLxvZ`
 
 ## Requests
 
