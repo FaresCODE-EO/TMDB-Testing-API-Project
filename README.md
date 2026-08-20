@@ -2,6 +2,9 @@
 
 A Postman collection for testing **The Movie Database (TMDB) API v3**. It provides a set of ready-to-use requests for searching, retrieving details, credits, genres, discovery, and watchlist management across movies, TV shows, and people. The collection is intended as a learning and testing playground for the TMDB REST API.
 
+**Postman Share Link Collection** `https://fm502601-7820399.postman.co/workspace/Fares-Mohamed's-Workspace~5c800b2d-7909-4da5-8190-16e636c41821/collection/56724135-6c7fcb31-db7b-40e6-9cfd-b52fe887546c?action=share&creator=56724135&active-environment=56724135-6e9c8d75-e4ea-44b6-8964-cb620fa8ca01`
+
+
 ---
 
 ## Table of Contents
@@ -28,6 +31,7 @@ A Postman collection for testing **The Movie Database (TMDB) API v3**. It provid
 - **Format:** JSON
 - **Requests:** 12 endpoints (see table below)
 - **Postman Documentation** `https://documenter.getpostman.com/view/56724135/2sBY4VLxvZ`
+- **Postman Share Link Collection** `https://fm502601-7820399.postman.co/workspace/Fares-Mohamed's-Workspace~5c800b2d-7909-4da5-8190-16e636c41821/collection/56724135-6c7fcb31-db7b-40e6-9cfd-b52fe887546c?action=share&creator=56724135&active-environment=56724135-6e9c8d75-e4ea-44b6-8964-cb620fa8ca01`
 
 The collection uses a `{{base_url}}` variable so you can switch between environments easily, and Bearer token authentication set at the collection level (inherited by most requests).
 
